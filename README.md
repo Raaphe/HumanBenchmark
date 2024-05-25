@@ -1,28 +1,28 @@
-# Human Bench Mark Game 🧩
+# Jeu de Bench Mark Humain 🧩 🧩
 ---
 
-# Get Started 
+# Pour Commencer
 ```git
 1. git clone https://github.com/hasilon88/HumanBenchmark.git
 ```
 
-## Setup
+## Configuration
 
 ### Backend (`/HumanBenchmarkServer`)
 
-###### prerequisite :
+###### prérequis  :
 
->**In the `/HumanBenchmarkServer/src/main/resources/application.properties` file, you will need to replace the `server.ip` property with your machine's IP address.**
+>**Dans le fichier `/HumanBenchmarkServer/src/main/resources/application.properties`, vous devrez remplacer la propriété `server.ip` par l'adresse IP de votre machine.**
 
 ---
 
-1. **navigate to the server root.**
+1. **naviguez vers la racine du serveur.**
 
 ```shell
 cd /HumanBenchmarkServer
 ```
 
-2. **Generate Client Code.**
+2. **Générez le code client.**
 
 ```shell
 mvn verify
@@ -32,25 +32,25 @@ mvn verify
 
 ### Frontend (`human-benchmark-app`)
 
-1. **Navigate to the frontend root.**
+1. **Naviguez vers la racine du frontend.**
 
 ```shell
 cd /human-benchmark-app
 ```
 
-2. **Install required dependencies.**
+2. **Installez les dépendances requises.**
 
 ```shell
 npm i
 ```
 
-3. **Install expo cli.**
+3. **Installez expo cli.**
 
 ```shell
 npm install -g expo-cli 
 ```
 
-4. **Start the app.**
+4. **Démarrez l'application.**
 
 ```shell
 npx expo start
