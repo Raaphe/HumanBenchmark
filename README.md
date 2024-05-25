@@ -1,6 +1,10 @@
-# Human Bench Mark Game
-
+# Human Bench Mark Game 🧩
 ---
+
+# Get Started 
+```git
+1. git clone https://github.com/hasilon88/HumanBenchmark.git
+```
 
 ## Setup
 
@@ -40,7 +44,13 @@ cd /human-benchmark-app
 npm i
 ```
 
-3. **Start the app.**
+3. **Install expo cli.**
+
+```shell
+npm install -g expo-cli 
+```
+
+4. **Start the app.**
 
 ```shell
 npx expo start
